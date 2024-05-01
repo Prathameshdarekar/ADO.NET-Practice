@@ -1,0 +1,23 @@
+using System;
+using System.Data.SqlClient;
+
+class Program
+{
+    static void Main()
+    {
+        string connectionString = "Server=.\\sqlexpress;database=AspAssignment_;integrated security = true;";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            try
+            {
+                connection.Open();
+                Console.WriteLine("Connected to the database!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error connecting to the database: " + ex.Message);
+            }
+        }
+    }
+}
