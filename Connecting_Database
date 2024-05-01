@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        string connectionString = "Server=.\\sqlexpress;database=AspAssignment_;integrated security = true;";
+        string connectionString = "Server=.\\sqlexpress;database=AdoAssignment_;integrated security = true;";
 
         using (SqlConnection connection = new SqlConnection(connectionString))
         {
