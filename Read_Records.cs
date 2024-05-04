@@ -6,7 +6,7 @@ class Program
     static void Main()
     {
         // Connection string to your SQL Server database
-        string connectionString = "Server=.\\sqlexpress;database=Ajay_Assignment;integrated security = true;";
+        string connectionString = "Server=.\\sqlexpress;database=ADODOTNETPRACTISE;integrated security = true;";
 
         // SQL query to select data from a table
         string selectQuery = "SELECT * FROM employees";
