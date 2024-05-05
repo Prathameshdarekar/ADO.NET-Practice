@@ -1,3 +1,14 @@
+// Stored Procedure
+//CREATE PROCEDURE AddEmployee
+//   @Name NVARCHAR(100),
+//   @City NVARCHAR(100),
+//    @Experience INT
+//AS
+//BEGIN
+//    INSERT INTO Employees (Name, City, Experience)
+//   VALUES (@Name, @City, @Experience)
+//END
+
 using System;
 using System.Data;
 using System.Data.SqlClient;
